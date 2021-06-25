@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>Task 1 and 2</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        div.part1 {
+            background-image: url("./pexels-max-deroin-51415.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 900px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        h1 {
+            padding: 40px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 400;
+            background-color: gray;
+            opacity: 1.2;
+        }
+        
+        div.part2 {
+            height: 600px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            flex-wrap: wrap;
+            padding: 20px 0;
+        }
+        
+        div.part2 div {
+            width: 200px;
+            padding: 0 95px;
+        }
+        
+        li,
+        dt,
+        dd {
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 300;
+        }
+        
+        h2 {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            font-weight: 400;
+            font-family: cursive;
+            color: white;
+        }
+        
+        span {
+            color: black;
+        }
+        
+        div.part3 {
+            background-image: url("./game.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 900px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        div.part4 {
+            height: 600px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #864444;
+        }
+        
+        iframe {
+            width: 400px;
+            height: 350px;
+        }
+        
+        @media only screen and (max-width:780px) {
+            iframe {
+                width: 300px;
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="part1">
+        <h1>Types of List</h1>
+    </div>
+    <div class="part2">
+        <div>
+            <h2>Unordered list</h2>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Ordered list</h2>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Coca Cola</li>
+            </ol>
+        </div>
+        <div>
+            <h2>Description list</h2>
+            <dl>
+                <dt>Coffee</dt>
+                <dd><span>black</span> -Black hot drink</dd>
+                <dt>Milk</dt>
+                <dd><span>black</span> -White cold drink</dd>
+            </dl>
+        </div>
+    </div>
+    <div class="part3">
+        <h1>Iframes</h1>
+    </div>
+    <div class="part4">
+        <iframe src="https://www.youtube.com/embed/edYCtaNueQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
